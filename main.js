@@ -120,9 +120,8 @@ const numbers = [ 4, 5, 6, 7, 8, 9, 10];
 // Resultado esperado
 // [256, 3125, 46656, 823543, 16777216, 387420489, 10000000000]
 
-/*const elevadoASiMismo = numbers.map(numero)=> Math.pow(numbers){
-  return numero
-}*/ //ERRORRRRRR
+const elevadoASiMismo = numbers.map(numero=>Math.pow(numero,numero))
+  console.log(elevadoASiMismo) //ERRORRRRRR
 
 
 //4. Filter
